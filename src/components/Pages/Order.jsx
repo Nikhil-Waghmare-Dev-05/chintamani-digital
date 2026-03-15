@@ -35,7 +35,7 @@ export const Order = () => {
     });
 
     const [submitted, setSubmitted] = useState(false);
-    const [dealerDiscount, setDealerDiscount] = useState(15);
+    const [dealerDiscount] = useState(15);
 
     const getMaterial = () => MATERIALS.find((m) => m.id === formData.material);
     const getFinish = () => FINISHES.find((f) => f.id === formData.finish);
