@@ -136,7 +136,9 @@ const illustrations = {
  * @param {string} props.className - Additional CSS classes
  */
 export const PrintIllustration = ({ type, className }) => {
-    return illustrations[type] || illustrations.flex;
+    const illustration = illustrations[type] || illustrations.flex;
+
+    return React.cloneElement(illustration, { className });
 };
 
 PrintIllustration.propTypes = {

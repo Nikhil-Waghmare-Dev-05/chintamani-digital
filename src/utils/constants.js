@@ -1,3 +1,26 @@
+
+import {
+    HiOutlinePrinter,
+    HiOutlineLightningBolt,
+} from "react-icons/hi";
+
+import {
+    MdOutlineWbSunny,
+    MdCurrencyRupee,
+} from "react-icons/md";
+
+import {
+    GiPalette,
+} from "react-icons/gi";
+
+import {
+    BsShieldCheck,
+} from "react-icons/bs";
+
+import {
+    FaRecycle,
+} from "react-icons/fa";
+
 export const ROUTES = {
     HOME: "#home",
     ABOUT: "#about",
@@ -43,40 +66,39 @@ export const STATS = [
 
 export const FEATURES = [
     {
-        icon: "🖨️",
+        icon: HiOutlinePrinter,
         title: "HD Printing",
         description: "Ultra-high resolution prints at 1440 DPI for crystal-clear visuals.",
     },
     {
-        icon: "☀️",
+        icon: MdOutlineWbSunny,
         title: "UV Resistant",
         description: "Inks that withstand harsh sunlight and outdoor conditions for years.",
     },
     {
-        icon: "⚡",
+        icon: HiOutlineLightningBolt,
         title: "Fast Delivery",
         description: "Same-day and next-day options for urgent requirements.",
     },
     {
-        icon: "💰",
+        icon: MdCurrencyRupee,
         title: "Best Rates",
         description: "Competitive wholesale pricing with no compromise on quality.",
     },
 ];
-
 export const QUALITY_PROMISES = [
     {
-        icon: "🎨",
+        icon: GiPalette,
         title: "Color Accuracy",
         description: "Pantone-matched colors with ICC profile calibration on every job.",
     },
     {
-        icon: "🔬",
+        icon: BsShieldCheck,
         title: "Quality Check",
         description: "Every print inspected under controlled lighting before dispatch.",
     },
     {
-        icon: "♻️",
+        icon: FaRecycle,
         title: "Eco Inks",
         description: "Solvent-free, eco-friendly inks that are safe for indoor use.",
     },
