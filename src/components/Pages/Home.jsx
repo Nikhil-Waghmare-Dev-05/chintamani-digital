@@ -307,8 +307,6 @@ export const Home = () => {
                                         background: "radial-gradient(circle at top right, rgba(212,175,55,0.15) 0%, transparent 70%)",
                                         pointerEvents: "none",
                                     }} />
-
-                                    {/* ✅ ICON FIX */}
                                     <div
                                         style={{
                                             width: 52,
