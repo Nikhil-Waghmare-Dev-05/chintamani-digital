@@ -1,8 +1,4 @@
-
-import {
-    HiOutlinePrinter,
-    HiOutlineLightningBolt,
-} from "react-icons/hi";
+import { HiOutlinePrinter, HiOutlineLightningBolt } from "react-icons/hi";
 
 import {
     MdOutlineWbSunny,
