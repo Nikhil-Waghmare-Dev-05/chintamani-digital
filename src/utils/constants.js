@@ -1,21 +1,12 @@
 import { HiOutlinePrinter, HiOutlineLightningBolt } from "react-icons/hi";
 
-import {
-    MdOutlineWbSunny,
-    MdCurrencyRupee,
-} from "react-icons/md";
+import {MdOutlineWbSunny,MdCurrencyRupee} from "react-icons/md";
 
-import {
-    GiPalette,
-} from "react-icons/gi";
+import {GiPalette} from "react-icons/gi";
 
-import {
-    BsShieldCheck,
-} from "react-icons/bs";
+import {BsShieldCheck} from "react-icons/bs";
 
-import {
-    FaRecycle,
-} from "react-icons/fa";
+import {FaRecycle} from "react-icons/fa";
 
 export const ROUTES = {
     HOME: "#home",
